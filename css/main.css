@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400italic,700,700italic);
 body {
+    
     margin: 60px auto;
     width: 70%;
 }
@@ -25,9 +26,11 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
+    font-family:'Arvo','Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    font-weight: 400, bold;
 }
 footer {
     border-top: 1px solid #d5d5d5;
