@@ -7,11 +7,9 @@
 		</head>
 		<body>
 			<nav>
-	    		<ul>
-	        		
-				
-				
-	    		</ul>
+				{% for collection in site.collections %}
+				<p>{{ collection }}</p>
+				{% endfor %}
 			</nav>
 			<div class="container">
 				
